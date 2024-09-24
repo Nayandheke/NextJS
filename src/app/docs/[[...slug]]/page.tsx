@@ -3,7 +3,7 @@ export default function Docs({params} : {
         slug: string[]
     }
 }) {
-    if(params.slug?.length ===2) {
+    if(params.slug?.length === 2) {
         return <h1>
             Viewing docs for feature {params.slug[0]} and concept {params.slug[1]}
         </h1>
